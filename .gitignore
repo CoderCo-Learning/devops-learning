@@ -1,0 +1,126 @@
+# General
+*.env
+*.pem
+.DS_Store
+*.log
+*.bak
+*.swp
+*.tmp
+*.temp
+*.old
+*.orig
+*.lock
+*.pid
+*.seed
+*.pid.lock
+
+# Linux
+*~
+*.swo
+*.swn
+*.swp
+*.swm
+
+# Git
+*.patch
+*.diff
+*.output
+*.err
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.backup
+
+# AWS
+.aws/
+*.pem
+*.key
+*.crt
+*.csr
+*_history
+
+# Kubernetes
+kubeconfig.yaml
+kubeconfig
+.kube/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+.docker/
+.dockercfg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+.pytest_cache/
+.pyre/
+.mypy_cache/
+.tox/
+coverage/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+*.ipynb_checkpoints
+*.egg-info/
+*.eggs/
+.installed.cfg
+*.dist-info/
+
+# CI/CD
+build/
+dist/
+*.class
+*.war
+*.jar
+*.ear
+*.dll
+*.exe
+*.out
+*.app
+*.service
+target/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Ansible
+*.retry
+*~.retry
+
+# Vagrant
+.vagrant/
+Vagrantfile.local
+.vagrant-local
+*.box
+
+# Other tools
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.editorconfig
