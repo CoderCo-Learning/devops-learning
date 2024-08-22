@@ -2,6 +2,11 @@
 
 Welcome to your DevOps learning repository! This repository is designed to track your progress as you navigate through various modules of this DevOps bootcamp. It will serve as a central hub for all your notes, labs, and project work. Use this repository template and let's get started on your journey to becoming a DevOps Engineer!
 
+## Initial setup
+
+- ![UseTemplate](./images/UseTemplate.png)
+- ![UseTemplate](./images/Createrepo.png)
+
 ## Repository Structure
 
 This repository is organized into multiple modules, each representing a core area of DevOps. You will find a dedicated folder for each module where you can store your notes, labs, and any other relevant materials.
