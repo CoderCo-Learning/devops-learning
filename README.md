@@ -4,8 +4,9 @@ Welcome to your DevOps learning repository! This repository is designed to track
 
 ## Initial setup
 
-- ![UseTemplate](./images/UseTemplate.png)
-- ![UseTemplate](./images/Createrepo.png)
+![UseTemplate](./images/UseTemplate.png)
+-------
+![UseTemplate](./images/Createrepo.png)
 
 ## Repository Structure
 
