@@ -25,18 +25,22 @@ Using information from previous level regarding what we need we can use:
 ```
 find / -type f -user bandit7 -group bandit6 -size 33c
 ```
-
-The command will output us the password location but since we're scanning the entire server we'll encounter permission denied errors because we don't have the correct privs to 'read':
+When running find / ... on the root directory, we are searching through the entire filesystem. This will likely result in many "Permission Denied" errors or other error messages because the find command will attempt to access directories that require higher privileges or are restricted.
 
 `find: ‘/sys/kernel/tracing’: Permission denied` <br>
 `find: ‘/sys/kernel/debug’: Permission denied` <br>
 `find: ‘find: ‘/sys/fs/pstore’: Permission denied`<br>
+
 
 ### Correct commands
 
 ```
 find / -type f -user bandit7 -group bandit6 -size 33c 2> /dev/null
 ```
+By adding 2> /dev/null :
+
+Suppress those error messages.
+Get a cleaner output with only the results you are interested in (i.e., files that match the criteria).
 
 Outputs: `/var/lib/dpkg/info/bandit7.password`
 

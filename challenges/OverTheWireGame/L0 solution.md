@@ -6,5 +6,4 @@ The goal of this [level](https://overthewire.org/wargames/bandit/bandit0.html) i
 
 ```
 ssh bandit0@bandit.labs.overthewire.org -p 2220
-
 ```

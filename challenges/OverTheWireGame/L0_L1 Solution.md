@@ -12,4 +12,7 @@ pwd
 cat readme
 ```
 
-password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If`
+# Password: 
+``` 
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+```

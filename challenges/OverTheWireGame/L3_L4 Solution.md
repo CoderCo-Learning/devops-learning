@@ -16,7 +16,7 @@ ssh bandit3@bandit.labs.overthewire.org -p 2220
 Password from previous: `MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx`
 
 ```
-ls
+ls # we are checking files present in current working directory
 ```
 
 ```
@@ -27,7 +27,7 @@ cd inhere/
 cat ...Hiding-From-You
 ```
 
-# Password for Level 3
+# Password
 ```
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ```
