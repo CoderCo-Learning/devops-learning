@@ -38,7 +38,7 @@ Check each file manually (slow + not recommended) by doing cat ./(filename) or d
 ```
 cat ./-file07
 ```
-Password: 
+# Password: 
 ```
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ```

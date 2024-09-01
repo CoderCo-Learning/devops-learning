@@ -7,7 +7,7 @@ The password for the next level is stored in a file called readme located in the
 ```
 pwd
 ```
-
+What is 'cat'? The cat command in Unix-like operating systems is short for "concatenate" and is used to display the contents of a file. When you run cat, it reads and prints the entire content of the file named readme to the terminal. This is useful for quickly viewing the contents of a file without opening it in a text editor.
 ```
 cat readme
 ```

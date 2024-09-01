@@ -13,7 +13,7 @@ Password: `dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc`
 ```
 ll
 ```
-This time, the file data.txt has lots of lines of text, some are not unique, so to sort by only unique we use uniq -u
+## This time, the file data.txt has lots of lines of text, some are not unique, so to sort by only unique we use uniq -u
 ```
 cat data.txt | sort | uniq -u
 ```

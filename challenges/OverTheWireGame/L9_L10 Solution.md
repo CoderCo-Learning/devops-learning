@@ -13,7 +13,7 @@ Password: `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`
 ```
 ls or ll 
 ```
-Since the hint indicated its preceeded by several '=' we can use grep (global regular expression print) to search and match to what we specify
+## Since the hint indicated its preceded by several '=' we can use grep (global regular expression print) to search and match to what we specify
 ```
 cat data.txt | strings | grep ==
 ```

@@ -27,7 +27,7 @@ ll
 cat spaces\ in\ this\ filename
 ```
 
-# Level 2 Password
+# Password
 ```
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
