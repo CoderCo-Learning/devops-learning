@@ -22,7 +22,7 @@ else
     echo "The number $number is out of the range 1 to 100."
 fi
 
-# Explain what each part does
+# What does each part do?
 
 # - The leap year check uses both arithmetic expansion ($((...))) and logical operators.
 #   A leap year is divisible by 4 but not by 100, unless it's also divisible by 400.
