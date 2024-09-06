@@ -83,3 +83,22 @@ Example: [ $a -eq 1 ] || [ $b -eq 2 ] returns true if either condition is true.
 `!`
 Description: Logical NOT. Reverses the condition.
 Example: [ ! -e "$file" ] returns true if the file does not exist.
+
+
+### Additional Special Parameters
+
+`$#`
+Description: This retuns the number of arguments that passed in, it holds the count of arguments
+Example: echo "Number of arguments: $#"
+
+`$0`
+Description: This is a special parameter that returns the name of the script
+Example: echo "Script Name: $0"
+
+`$1` # Also applies to $2,3,4 etc
+Description: This is returns the first line of the command line output
+Example: echo "First argument: $1"
+
+`$@`
+Description: This variable echos all the arguments that have been passed in.
+Example: echo "All args: $@"
